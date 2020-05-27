@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_member"
+        android:icon="@drawable/baseline_people_alt_black_18dp"
+        android:title="Member"/>
+    <item
+        android:id="@+id/action_message"
+        android:icon="@drawable/baseline_message_black_18dp"
+        android:title="Message"/>
+    <item
+        android:id="@+id/action_schedule"
+        android:icon="@drawable/baseline_account_box_black_18dp"
+        android:title="Schedule"/>
+</menu>

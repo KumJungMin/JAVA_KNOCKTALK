@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListMembers</string>
+    <string name="rc_color">splash_background</string>
+    <string name="msg_token_fmt">String</string>
+</resources>

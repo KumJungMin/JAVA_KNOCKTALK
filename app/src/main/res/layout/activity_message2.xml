@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messageActivity_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f2f3fa"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/message2_reason_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#f2f3fa">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/message2_consultant_rbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미래설계상담"
+                android:textColor="#000000"
+                android:buttonTint="@color/colorAccent"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/message2_recommend_rbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추천서"
+                android:textColor="#000000"
+                android:buttonTint="@color/colorAccent"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/message2_question_rbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수업질문"
+                android:textColor="#000000"
+                android:buttonTint="@color/colorAccent"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/message2_etc_rbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기타"
+                android:textColor="#000000"
+                android:buttonTint="@color/colorAccent"/>
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/messageActivity_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="사유를 간단하고 구체적으로 적어주세요."
+            android:textColor="#333"
+            android:textColorHint="#a19c9c"/>
+
+        <Button
+            android:id="@+id/messageActivity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전송"
+            android:textSize="20dp"
+            android:textFontWeight="700"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
